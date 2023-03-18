@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.waper-menu{
+    width: 100%;
+    background-color: rgb(175, 195, 212);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+
+}
+.menu_content{
+    display: flex;
+    list-style: none;
+    column-gap: 50px;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 700px;
+    align-items: center;
+    cursor: pointer;
+}
+.menu_content a{
+    text-decoration: none;
+    color: black;
+}
+.menu_logout{
+    column-gap: 10px;
+}
+.menu_content :hover{
+    color: rgb(240, 9, 9);
+}
+.waper-list{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+}
+.list_left{     
+    width: 20%;
+    padding: 20px 0 0 40px; 
+    
+}
+.content_text li a{
+    width: 180px;
+    border: 1px solid rgb(212, 210, 206);
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    color: rgb(16, 16, 16);
+}
+.list-title{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.caregory_content{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+select{
+    width: 180px;
+    padding: 5px 10px;
+    margin: 20px 0;
+}
+.list_right{
+    width: 75%;
+    
+}
+.form{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    background-color: rgb(172, 142, 153);
+    padding: 20px 40px;
+    z-index: 1;
+    width: 500px;
+    border-radius: 10px;
+}
+.form-btn{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+.input-id{
+    padding-top:20px ;
+    margin: 0 20px;
+}
+input{
+    width: 300px;
+}
+table{
+    position: relative;
+}
+.input-id p{
+    width: 80px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.input-id{
+    display: flex;
+    column-gap: 10px;
+}
+.list_left ul{
+    list-style: none; 
+}
+.list_left a{
+    text-decoration: none;
+}
+.list_search{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgb(173, 167, 167);
+    border-radius: 10px;
+    margin:70px 0 20px 0 ;
+    display: flex;
+    column-gap: 50px;
+}
+.list_search input{
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+table{
+    border: 1px solid rgb(173, 167, 167);
+    border-radius: 10px;
+}
+.content-text  {
+    width: 150px;
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+.infor{
+    width:350px;
+    padding: 10px 5px;
+    text-align: left;
+}
+button{
+    width: 100px;
+    font-size: 18px;
+    padding: 10px 10px;
+    border: 1px solid rgb(190, 187, 180);
+    border-radius: 8px;
+}
+.btn_add{
+    padding: 10px 10px;
+    margin: 20px 0 20px 20px;
+    border: 1px solid rgb(190, 187, 180);
+    border-radius: 8px;
+}
+.btn_edit:hover{
+   color: white;
+   background-color: rgb(246, 144, 10);
+   border: none;
+}
+.btn_delete:hover{
+    color: white;
+    background-color: red;
+    border: none;
+}
+.btn_add:hover{
+    color: white;
+    background-color: rgb(33, 137, 234);
+    border: none;
+}
+.btn_click:hover{
+    color:white;
+    background-color: rgb(15, 200, 138);
+    border: none;
+}
+.list_left li :hover{
+    background-color: rgb(207, 210, 213);
+}

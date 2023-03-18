@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<div class="waper">
+    <div class="waper-menu">
+        <ul class="menu_content">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Admin</a></li>
+        </ul>
+        <div class="menu_logout menu_content">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <p>logout</p>
+        </div>
+    </div>
+    <div class="waper-list">
+        <div class="list_left">
+            <div class="content_list">
+                <p class="list-title">Danh mục</p>
+                <ul class="content_text">
+                    <li><a href="">Manufactuer</a></li>
+                    <li><a href="">Category</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </div>
+            <div class="manufacturers">
+                <p class="list-title">Manufacturers</p>
+                <ul class="content_text">
+                    <li><a href="">SAMSUNG</a></li>
+                    <li><a href="">APPLE</a></li>
+                    <li><a href="">XIAOMI</a></li>
+                    <li><a href="">OPPO</a></li>
+                </ul>
+            </div>
+            <div class="caregorys">
+                <p class="list-title">Caregorys</p>
+                <div class="caregory_content">
+                     <select name="" id="">
+                        <option value="">--Select Cate</option>
+                     </select>
+               <button>Fillter</button>
+                </div>
+            </div>
+        </div>
+        <div class="list_right">
+            <div class="list_search">
+                <input type="text" placeholder="search ..." class="search_input" oninput="searchUser()">
+                <button onclick="click_btn" class="btn_click">Search</button>
+            </div>
+            <div class="form">
+                <form action="">
+                    <div class="input-id">
+                        <p>id</p>
+                        <input type="text" placeholder="nhập id" id="id">
+                    </div>
+                     <div class="input-id">
+                        <p>name</p>
+                        <input type="text"placeholder="nhập name" id="name">
+                    </div>
+                     <div class="input-id">
+                        <p>Price</p>
+                        <input type="text"placeholder="nhập price" id="price">
+                    </div>
+                     <div class="input-id">
+                        <p>Info</p>
+                        <input type="text"placeholder="nhập info" id="info">
+                    </div>
+                     <div class="input-id">
+                        <p>Deltail</p>
+                        <input type="text"placeholder="nhập deltail" id="deltail">
+                    </div>
+                     <div class="input-id">
+                        <p>Star</p>
+                        <input type="text"placeholder="nhập star"id="star">
+                    </div>
+                     <div class="input-id">
+                        <p>Image</p>
+                        <input type="text"placeholder="thêm image"id="img">
+                    </div>
+                     <div class="input-id">
+                        <p>NSX</p>
+                        <input type="text"placeholder="nhập NSX"id="nsx">
+                    </div>
+                     <div class="input-id">
+                        <p>Category</p>
+                        <input type="text"placeholder="nhập category"id="Caregorys">
+                    </div>
+                    <div class="form-btn">
+                         <button id="add" onclick="add()">ADD</button>
+                    </div>
+                </form>
+            </div>
+            <table id="render">
+                <tr>    
+                    <td><button class="btn_add">Add New</button></td>
+                </tr>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th >Info</th>
+                    <th>Deltail</th>
+                    <th>Star</th>
+                    <th>Image</th>
+                    <th>NSX</th>
+                    <th>Category</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+</div>
+<body>
+    <script src="main.js"></script>
+</body>
+</html>

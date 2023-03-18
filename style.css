@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container--header{
+    width: 100%;
+    background-color: rgb(240, 194, 10);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.menu ul{
+    display: flex;
+    column-gap: 20px;
+    font-size: 24px;
+    line-height: 14px;
+    padding: 20px 40px;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.banner img{
+    width: 100%;
+    padding-top: 100px;
+}
+.banner-qc{
+    padding-bottom: 10px;
+}
+.container-item{
+    width: 100%;
+    background: rgb(212, 212, 211);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+}
+#image-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    width: 80%;
+    padding: 50px 50px; 
+    cursor: pointer;
+    column-gap: 20px;
+}
+ .image-content{
+    width:100%;
+    display: flex;
+    /* padding-left: 40px; */
+    justify-content: center;
+    padding-top: 20px;
+}
+.product{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid rgb(239, 236, 241);
+    border-radius: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.star{
+    color: rgb(229, 241, 7);
+}
+.item_text {
+    padding: 20px 50px 0;
+}
+.item_text p{
+    padding-top: 10px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.icon :hover{
+    color: red;
+}
+
+.iphone{
+    font-size: 18px;
+    font-weight: 700;
+}
